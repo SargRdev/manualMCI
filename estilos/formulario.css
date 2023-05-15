@@ -10,8 +10,9 @@ form {
   margin: 70px 25%;
 }
 
-.div-contacto h2 {
-  margin: 0 100px;
+.div-contacto p {
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 fieldset {
@@ -23,12 +24,27 @@ form legend {
   display: block;
   font-size: 1.2rem;
   margin: 0 0 10px;
+
+}
+label{
+
+
+}
+
+form legend {
+  font-size: 1.5rem;
 }
 
 input,
 textarea {
   font-size: 1.2rem;
   font-family: var(--monserrat);
+  border:none;
+}
+
+.cambio-color{
+ color: #82b901;
+ text-transform: uppercase;
 }
 
 textarea {
@@ -44,6 +60,10 @@ textarea {
 
 .label-checkbox {
   margin: 20px 0;
+}
+
+.hero{
+  text-align: center;
 }
 
 .btnEnviar {
@@ -64,6 +84,7 @@ textarea {
   background-color: #72a105;
   transform: scale(1.2);
 }
+
 
 @media screen and (max-width:640px){
   /*formulario*/
@@ -102,6 +123,9 @@ textarea {
     padding-left: 10px;
   }
 
+#pie{
+  margin:0 0;
+  font-size: 0.1rem;
 }
 
 @media screen and (min-width:320px) and (max-width:480px){

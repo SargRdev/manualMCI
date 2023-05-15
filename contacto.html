@@ -41,45 +41,47 @@
   <main>
     <section class="contenedor-contactanos">
       <div class="div-contacto">
-        
-          <h2>Contáctanos</h2>
-    
+
+        <p>Si tienes comentarios, quieres más información del manual</p>
+        <p>o una capacitación para tu equipo déjanos tus datos: </p>
+
         <form action="https://formsubmit.co/robles.alexander23@gmail.com" method="POST">
 
-          <label for="nombre">Nombre:</label>
+          <label class="cambio-color" for="nombre">Nombre:</label>
           <input type="text" id="nombre" name="txtnombre" class="input-padron" required>
 
           <label for="apellido">Apellidos:</label>
           <input type="text" id="apellido" name="txtApellido" class="input-padron" required>
 
-          <label for="tel">Teléfono:</label>
-          <input type="tel" id="tel" name="txtTel" placeholder="XXXXXXXX" class="input-padron" required>
-
-          <label for="email">Correo Electrónico:</label>
-          <input type="email" id="email" name="txtEmail" placeholder="email@dominio.com" class="input-padron" required>
-
-          <label for="area">Mensaje:</label>
-          <textarea name="txtArea" id="area" cols="61" rows="15"></textarea>
-
           <fieldset>
 
-            <legend>¿Cómo te gustaría que te contactáramos?</legend>
+            <legend>¿Qué prefieres? </legend>
 
-            <label for="radio-email">
-              <input type="radio" name="contactado-por" id="radio-email" value="email">Email
-            </label>
 
             <label for="radio-telefono">
-              <input type="radio" name="contactado-por" id="radio-telefono" value="telefono">Teléfono
+              <input type="radio" name="contactado-por" id="radio-telefono" value="telefono"> ¿Te llamamos?
             </label>
 
             <label for="radio-whatsapp">
               <input type="radio" name="contactado-por" id="radio-whatsapp" value="Whatsapp" checked>
-              Whatsapp
+              ¿Te whatsappeamos?
             </label>
 
+            <label for="radio-email">
+              <input type="radio" name="contactado-por" id="radio-email" value="email"> ¿O quieres un mail?
+            </label>
 
           </fieldset>
+
+          <label class="cambio-color" for="tel">Teléfono:</label>
+          <input type="tel" id="tel" name="txtTel" placeholder="XXXXXXXX" class="input-padron" required>
+
+          <label class="cambio-color" for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="txtEmail" placeholder="email@dominio.com" class="input-padron" required>
+
+          <label for="area">Mensaje:</label>
+          <textarea name="txtArea" id="area" cols="61" rows="5"></textarea>
+
 
           <!--
           <label class="label-checkbox" for="material">
@@ -87,6 +89,11 @@
             Dirección de Atención al
             Vecino?</label>
 -->
+          <p>En menos de lo que te imaginas </p>
+          <p> sabrás de nosotros...</p>
+          <div class="hero"><img src="imagenes/SITIO WEB HERO-20.png" alt="" width="100px">
+          </div>
+
           <button type="submit" id="" class="btnEnviar">
             Enviar
           </button>
