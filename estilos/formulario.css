@@ -24,11 +24,6 @@ form legend {
   display: block;
   font-size: 1.2rem;
   margin: 0 0 10px;
-
-}
-label{
-
-
 }
 
 form legend {
@@ -38,13 +33,12 @@ form legend {
 input,
 textarea {
   font-size: 1.2rem;
-  font-family: var(--monserrat);
-  border:none;
+  border: none;
 }
 
-.cambio-color{
- color: #82b901;
- text-transform: uppercase;
+.cambio-color {
+  color: #82b901;
+  text-transform: uppercase;
 }
 
 textarea {
@@ -62,7 +56,7 @@ textarea {
   margin: 20px 0;
 }
 
-.hero{
+.hero {
   text-align: center;
 }
 
@@ -85,17 +79,22 @@ textarea {
   transform: scale(1.2);
 }
 
-
-@media screen and (max-width:640px){
+@media screen and (max-width: 640px) {
   /*formulario*/
 
   .contenedor-contactanos {
     width: auto;
   }
 
+  .div-contacto p {
+    text-align: justify;
+    padding: 0 30px 0 30px;
+  }
+
   form {
     width: 80%;
     margin: 0 auto;
+    padding-top: 50px;
   }
 
   .div-contacto h2 {
@@ -105,7 +104,7 @@ textarea {
 
   form label,
   form legend {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .input-padron {
@@ -123,45 +122,59 @@ textarea {
     padding-left: 10px;
   }
 
-#pie{
-  margin:0 0;
-  font-size: 0.1rem;
+
+
 }
 
-@media screen and (min-width:320px) and (max-width:480px){
-   /*formulario*/
 
-   .contenedor-contactanos {
-    width: auto;
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+
+   
+
+
+    /*formulario*/
+/*
+    .contenedor-contactanos {
+      width: auto;
+      align-content: justify;
+    }
+
+    form {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .div-contacto h2 {
+      margin: auto;
+      padding: 0 0 50px 50px;
+    }
+
+    form label,
+    form legend {
+      font-size: 1.5rem;
+    }
+
+    .input-padron {
+      padding: 12px 0px;
+      width: 100%;
+    }
+
+    textarea {
+      width: 100%;
+    }
+
+    input::placeholder {
+      font-size: 1.3em;
+      font-style: italic;
+      padding-left: 10px;
+    }
+    */
+
+    .final-form p{
+      text-align: justify;
+      float: left;
+      font-size: 1.2rem;
+   }
+
   }
 
-  form {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .div-contacto h2 {
-    margin: auto;
-    padding: 0 0 50px 50px;
-  }
-
-  form label,
-  form legend {
-    font-size: 1.5rem;
-  }
-
-  .input-padron {
-    padding: 12px 0px;
-    width: 100%;
-  }
-
-  textarea {
-    width: 100%;
-  }
-
-  input::placeholder {
-    font-size: 1.3em;
-    font-style: italic;
-    padding-left: 10px;
-  }
-}
