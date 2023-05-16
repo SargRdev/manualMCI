@@ -1,5 +1,5 @@
 let mail = document.getElementById("mail").style.display = 'none'
-
+let telefono = document.getElementById("tele").style.display = "none"
 
 function selectRadio() {
 
