@@ -19,6 +19,10 @@ fieldset {
   border-style: none;
 }
 
+#tele, #mail{
+  margin-top:15px;
+}
+
 form label,
 form legend {
   display: block;
@@ -122,10 +126,7 @@ textarea {
     padding-left: 10px;
   }
 
-
-
 }
-
 
   @media screen and (min-width: 320px) and (max-width: 480px) {
 
